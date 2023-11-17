@@ -1,6 +1,3 @@
-import './App.css';
-
-
 const pizzaData = [
   {
     name: "Focaccia",
@@ -45,26 +42,3 @@ const pizzaData = [
     soldOut: false,
   },
 ];
-
-
-function App() {
-  return (
-  <div>
-     <h1>Hello React</h1>
-    <Pizza/>
-    <Pizza/>
-    <Pizza/>
-  </div>
-  );
-}
-
-function Pizza() {
-  return (
-    <div className="App">
-      <img src='/pizzas/spinaci.jpg' alt='pizza spinaci'/>
-      <h2>{pizzaData[0].name}</h2>
-    </div>
-  );
-}
-
-export default App;
