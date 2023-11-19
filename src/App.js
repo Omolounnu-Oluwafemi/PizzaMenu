@@ -1,6 +1,5 @@
 import './App.css';
 
-
 const pizzaData = [
   {
     name: "Focaccia",
@@ -45,8 +44,6 @@ const pizzaData = [
     soldOut: false,
   },
 ];
-
-
 function App() {
   return (
   <div className='container'>
@@ -56,7 +53,6 @@ function App() {
   </div>
   );
 }
-
 function Header() {
   return (
     <header className='header'>
@@ -64,8 +60,6 @@ function Header() {
     </header>
   )
 }
-
-
 const Menu = () =>{
   return (
     <main className='menu'>
@@ -117,7 +111,6 @@ const Menu = () =>{
     </main>
   );
 };
-
 function Pizza(props) {
   return (
     <div className="pizza">
